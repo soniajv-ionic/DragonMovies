@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import {
   IonHeader,
@@ -41,7 +41,7 @@ import { IonicModule } from '@ionic/angular';
   //   FormsModule,
   //   CommonModule,
   // ],
-  imports: [FormsModule, CommonModule, IonicModule],
+  imports: [FormsModule, ReactiveFormsModule, CommonModule, IonicModule],
 })
 export class HomePage {
   public movieTitle: string = '';

@@ -1,5 +1,5 @@
 // ----- Database -----
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import { Movie } from '../interfaces/movie';
 
 import { Storage } from '@ionic/storage-angular';
@@ -11,7 +11,9 @@ const NODE_ROOT = 'movies';
   providedIn: 'root',
 })
 export class LocaldatabaseService {
-  constructor(private storage: Storage) {
+  private storage = inject(Storage);
+
+  constructor() {
     this.init();
   }
 
