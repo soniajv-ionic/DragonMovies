@@ -22,7 +22,7 @@ import { IonicModule } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
-  standalone: true, // Falta esta línea para que el componente sea standalone
+  standalone: true,
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
   // imports: [
