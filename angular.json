@@ -20,9 +20,9 @@
           "options": {
             "outputPath": {
               "base": "www",
-              "browser": ""
+              "browser": "src/main.ts"
             },
-            "index": "src/index.html",
+            "index": ["src/index.html"],
             "polyfills": [
               "src/polyfills.ts"
             ],
