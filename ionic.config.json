@@ -1,0 +1,7 @@
+{
+  "name": "DragonMovies",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
