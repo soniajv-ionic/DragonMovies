@@ -11,7 +11,7 @@ const NODE_ROOT = 'movies';
   providedIn: 'root',
 })
 export class LocaldatabaseService {
-  private storage = inject(Storage);
+  private storage: Storage = inject(Storage);
 
   constructor() {
     this.init();
